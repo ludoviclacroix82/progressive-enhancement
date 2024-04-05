@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto:wght@100;300&family=Smooch+Sans:wght@100&display=swap');
+
+
+body  {width: 90%;margin: 0 auto;background: linear-gradient(133deg, #f0f0f0, #b0b0b0);background-image:url("https://www.lutece-wallpaper.com/wp-content/uploads/2019/08/51192909.jpg");background-repeat: no-repeat;background-position: bottom right;background-size: cover;}
+blockquote  {width: 50%;background-color: lightgrey;border-left: 3px solid firebrick;padding: 80px 30px;font-style: italic;font-family: 'Roboto';}
+.villagers {border-left: 3px solid blue;}
+.farmer {border-left: 3px solid green;}
+
+q  {margin: 0 auto;font-size: 160%;}
+p  {font-family: serif;letter-spacing: 0.04rem;font-size: 1.1rem;color:#242424;}
+a  {text-decoration: none;color: red;}
+a:hover {color: #242424;}
+a:visited{color: #363636;}
+
+header>h1 {color: yellow;}
+
+em {text-transform:uppercase;}
+.good {color: green;}
+.bad {color: red;}
+
+table,td {border: 1px solid #000;}
+tr:nth-child(even) {background-color: green;} 
+tr:nth-child(odd) {background-color: #fff;} 
+
+ul>li:nth-child(1):after{content:url("assets/bien.png") ;padding-right: 10px;}
+ul>li:nth-child(2):after{content:url("assets/mal.png");padding-right: 10px;}
+ul>li:nth-child(3):after{content:url("assets/chat.png") ;padding-right: 10px;}
+
+.history {font-weight: bold;flex: 50%;}
+
+/*figure,figcaption{width: 50%;float: right;margin-left: 50px;}
+img {float:right;margin-left:30px;width: 70%;}*/
+.story,.space{display: flex;flex-direction: row;width: 90%;}
+.figure,aside{flex: 50%;}
+img {width: 90%;}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom:0.5rem;
+    right: 1rem;
+  }
